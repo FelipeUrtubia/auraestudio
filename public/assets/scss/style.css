@@ -1,1 +1,61 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  height: 1500px;
+  background: #FFFFFF;
+}
+
+body .navbar {
+  height: 90px;
+  background: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+}
+
+body .navbar .container-fluid span {
+  padding-left: 140px;
+}
+
+body .navbar .container-fluid ul {
+  padding-right: 140px;
+}
+
+body .navbar .container-fluid ul li {
+  padding-left: 73px;
+}
+
+body .navbar .container-fluid ul li a {
+  font-size: 22px;
+  color: #636569;
+}
+
+body .navbar .container-fluid ul li a:hover {
+  color: #D79DD7;
+}
+
+body .parallax {
+  background: #E5E5E5;
+  font-family: 'Comfortaa', cursive;
+}
+
+body .parallax .row {
+  height: 550px;
+}
+
+body .parallax .row h2 {
+  font-weight: 500;
+  font-size: 50px;
+  color: #636569;
+}
+
+body .parallax .row .btn-primary {
+  -webkit-box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  background: #D79DD7;
+  border: none;
+  color: #F3EFF5;
+}
+
+body .parallax .row .btn-primary:hover {
+  background: #D79DD7;
+  color: #F3EFF5;
+}
+/*# sourceMappingURL=style.css.map */

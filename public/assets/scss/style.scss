@@ -1,0 +1,59 @@
+$background: #FFFFFF;
+$primary: #8331A7;
+$secondary: #D79DD7;
+$text: #636569;
+$missing-image: #E5E5E5;
+$background-white: #F3EFF5;
+
+body{
+    height: 1500px;
+    background: $background;
+
+    .navbar{
+        height: 90px;
+        background: $background;
+        font-family: 'Comfortaa', cursive;
+        .container-fluid{
+            span{
+                padding-left: 140px;
+            }
+            ul{
+                padding-right: 140px;
+                li{
+                    padding-left: 73px;
+                    a{
+                        font-size: 22px;
+                        color: $text;
+                        &:hover{
+                            color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .parallax{
+        background: $missing-image;
+        font-family: 'Comfortaa', cursive;
+        .row{
+            height: 550px;
+            h2{
+                font-weight: 500;
+                font-size: 50px;
+                color: $text;
+            }
+            .btn-primary{
+                box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
+                border-radius: 50px;
+                background: $secondary;
+                border: none;
+                color: $background-white;
+                &:hover{
+                    background: $secondary;
+                    color: $background-white;
+                }
+            }
+        }
+    }
+}
