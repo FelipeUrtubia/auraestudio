@@ -17,16 +17,17 @@ body .navbar {
   font-family: 'Comfortaa', cursive;
 }
 
-body .navbar .container-fluid span {
-  padding-left: 140px;
+body .navbar .container-fluid img {
+  height: 55px;
+  padding-left: 25px;
 }
 
 body .navbar .container-fluid ul {
-  padding-right: 140px;
+  padding-right: 25px;
 }
 
 body .navbar .container-fluid ul li {
-  padding-left: 73px;
+  padding-left: 60px;
 }
 
 body .navbar .container-fluid ul li .dot {
@@ -37,7 +38,7 @@ body .navbar .container-fluid ul li .dot {
 }
 
 body .navbar .container-fluid ul li a {
-  font-size: 22px;
+  font-size: 18px;
   color: #636569;
 }
 
@@ -64,7 +65,7 @@ body .carousel .carousel-inner .carousel-item .carousel-caption {
 
 body .carousel .carousel-inner .carousel-item .absolute-div {
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -73,31 +74,34 @@ body .carousel .carousel-inner .carousel-item .absolute-div {
 body .carousel .carousel-inner .carousel-item .row {
   height: 550px;
   margin-right: 0px;
+  text-align: left;
 }
 
 body .carousel .carousel-inner .carousel-item .row h2 {
   font-weight: 500;
-  font-size: 50px;
-  color: #636569;
+  font-size: 41px;
+  color: white;
 }
 
 body .carousel .carousel-inner .carousel-item .row .btn-primary {
   -webkit-box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
           box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
-  background: #D79DD7;
+  background: #8A1E41;
   border: none;
   color: #F3EFF5;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 body .carousel .carousel-inner .carousel-item .row .btn-primary:hover {
-  background: #D79DD7;
+  background: #cc3362;
   color: #F3EFF5;
 }
 
 body .wwd h3 {
   font-family: 'hello honey', sans-serif;
-  font-size: 110px;
+  font-size: 100px;
   color: #8331A7;
   text-align: center;
 }
@@ -120,7 +124,7 @@ body .wwd .row .col-3 img {
 
 body .wwd .row .col-3 h5 {
   font-family: 'hello honey', sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   color: #8A1E41;
 }
 
@@ -146,9 +150,13 @@ body .wwd .row .col-3 ul li::before {
   margin-left: -1em;
 }
 
-body .wmud h4 {
+body .wwd .row .col-3 .pmulti {
+  padding-left: 90px;
+}
+
+body .wmud h3 {
   font-family: 'hello honey', sans-serif;
-  font-size: 110px;
+  font-size: 100px;
   color: #8331A7;
   text-align: center;
   padding-top: 20px;
@@ -168,8 +176,46 @@ body .wmud .row .col-6 img {
 body .wmud .row .col-6 p {
   font-family: 'Comfortaa', cursive;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 22px;
   color: #636569;
+  padding-top: 10px;
+}
+
+body .hwa h3 {
+  font-family: 'hello honey', sans-serif;
+  font-size: 100px;
+  color: #8331A7;
+  text-align: center;
+}
+
+body .hwa .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+body .hwa .row .col-3 {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+}
+
+body .hwa .row .col-3 img {
+  height: 265px;
+  border-radius: 50%;
+}
+
+body .hwa .row .col-3 h5 {
+  font-family: 'comfortaa', Bold;
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+body .hwa .row .col-3 p {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
   padding-top: 10px;
 }
 /*# sourceMappingURL=style.css.map */

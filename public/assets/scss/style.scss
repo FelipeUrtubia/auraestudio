@@ -1,6 +1,7 @@
 $background: #FFFFFF;
 $primary: #8331A7;
 $secondary: #D79DD7;
+$tertiary: #cc3362;
 $text: #636569;
 $h5text: #8A1E41;
 $missing-image: #E5E5E5;
@@ -25,13 +26,14 @@ body{
         background: $background;
         font-family: 'Comfortaa', cursive;
         .container-fluid{
-            span{
-                padding-left: 140px;
+            img{
+                height: 55px;
+                padding-left:25px;
             }
             ul{
-                padding-right: 140px;
+                padding-right: 25px;
                 li{
-                    padding-left: 73px;
+                    padding-left: 60px;
                     .dot{
                         padding-left: 0px;
                         width: 12px;
@@ -39,7 +41,7 @@ body{
                         background-color: $secondary;
                     }
                     a{
-                        font-size: 22px;
+                        font-size: 18px;
                         color: $text;
                         &:hover{
                             color: $secondary;
@@ -51,6 +53,9 @@ body{
     }
 
     .carousel{
+        //.carousel-control .icon-prev, 
+        //.carousel-control .icon-next {
+        //font-size: 1000px;}
         .carousel-inner{
             .carousel-item{
                 font-family: 'Comfortaa', cursive;
@@ -68,7 +73,7 @@ body{
                 
                 .absolute-div{
                     position: absolute;
-                      top: 0;
+                      top: 20px;
                       left: 0;
                       right: 0;
                       bottom: 0;
@@ -76,19 +81,22 @@ body{
                 .row{
                     height: 550px;
                     margin-right: 0px;
+                    text-align: left;
                     h2{
                         font-weight: 500;
-                        font-size: 50px;
-                        color: $text;
+                        font-size: 41px;
+                        color: white;
                     }
                     .btn-primary{
                         box-shadow: -2px 5px 10px rgba(0, 0, 0, 0.2);
                         border-radius: 50px;
-                        background: $secondary;
+                        background: $h5text;
                         border: none;
                         color: $background-white;
+                        font-size: 30px;
+                        font-weight: 700;
                         &:hover{
-                            background: $secondary;
+                            background: $tertiary;
                             color: $background-white;
                         }
                     }
@@ -100,7 +108,7 @@ body{
     .wwd{
         h3{
             font-family: 'hello honey', sans-serif;
-            font-size: 110px;
+            font-size: 100px;
             color: $primary;
             text-align: center;
         }
@@ -117,7 +125,7 @@ body{
                 }
                 h5{
                     font-family: 'hello honey', sans-serif;
-                    font-size: 70px;
+                    font-size: 60px;
                     color: $h5text;
                 }
                 ul {
@@ -131,22 +139,25 @@ body{
                     color: $text;
                     padding-top: 10px;
                 }
-                  ul li::before {
-                    content: "\2022";
-                    color: $secondary;
-                    font-weight: bold;
-                    display: inline-block;
-                    width: 1em;
-                    margin-left: -1em;
-                  }
+                ul li::before {
+                content: "\2022";
+                color: $secondary;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em;
+                }
+                .pmulti{
+                    padding-left: 90px;
+                }
             }
         }
     }
 
     .wmud{
-        h4{
+        h3{
             font-family: 'hello honey', sans-serif;
-            font-size: 110px;
+            font-size: 100px;
             color: $primary;
             text-align: center;
             padding-top: 20px;
@@ -163,8 +174,44 @@ body{
                 p{
                     font-family: 'Comfortaa', cursive;
                     font-weight: 800;
-                    font-size: 18px;
+                    font-size: 22px;
                     color: $text;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+
+    .hwa{
+        h3{
+            font-family: 'hello honey', sans-serif;
+            font-size: 100px;
+            color: $primary;
+            text-align: center;
+        }
+        .row{
+            margin-right: 0px;
+            margin-left: 0px;
+            .col-3{
+                padding-left: 0px;
+                padding-right: 0px;
+                text-align: center;
+                img{
+                    height: 265px;
+                    border-radius: 50%;
+                }
+                h5{
+                    font-family: 'comfortaa', Bold;
+                    font-weight: 700;
+                    font-size: 25px;
+                    color: black;
+                    
+                }
+                p{
+                    font-family: 'Comfortaa', cursive;
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: black;
                     padding-top: 10px;
                 }
             }
